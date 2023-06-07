@@ -1,4 +1,5 @@
 @import '../sass/variables.scss';
+@import './Burger.scss';
 
 .header {
   margin-bottom: 135px;
@@ -68,6 +69,12 @@
   flex-wrap: wrap;
 }
 
-.burger {
-  
+@media (max-width: 1024px) {
+  .nav,
+  .buttonBox  {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
 }

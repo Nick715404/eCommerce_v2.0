@@ -4,7 +4,8 @@
   background-image: url(../img/guarantee.png);
     background-repeat: no-repeat;
     background-size: 54%;
-    background-position: right top;
+    background-position: right 10%;
+    background-origin: border-box;
     margin-bottom: 100px;
   &__wrapper {
     display: flex;
@@ -86,5 +87,71 @@
     padding: 5px 5px;
     background: transparent;
     color: $white1;
+  }
+}
+
+.adaptive-btn {
+  display: none;
+
+}
+
+@media (max-width:1356px) {
+  .guarantee {
+    background-position: right 100%;
+  }
+}
+
+@media (max-width:1024px) {
+  .guarantee {
+    background-image: url('');
+    text-align: center;
+    &__wrapper {
+      display: flex;
+      min-height: 835px;
+      align-items: center;
+      justify-content: center;
+    }
+    &__content {
+      width: auto;
+      max-width: 80%;
+    }
+
+    &__form {
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+
+    &__list {
+      margin: 0 auto;
+    }
+  }
+
+  .guarantee-cards {
+    display: none;
+  }
+}
+
+@media (max-width:591px) {
+  .guarantee-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guarantee__form {
+    display: none;
+  }
+
+  .adaptive-btn {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width:358px) {
+  .guarantee{
+    &__title {
+      font-size: 36px;
+    }
   }
 }

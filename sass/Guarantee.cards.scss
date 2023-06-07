@@ -100,3 +100,28 @@
     }
   }
 }
+
+@media (max-width:1590px) {
+  .guarantee-cards__card--vertical {
+    right: -100px;
+  }
+}
+
+
+@media (max-width:1396px) {
+  .guarantee-cards__card--vertical {
+    right: -50px;
+  }
+}
+
+@media (max-width:1290px) {
+  .guarantee-cards__card--vertical {
+    right: -0px;
+  }
+}
+
+@media (max-width:1130px) {
+  .guarantee-cards__card--horizontal {
+    left: -30px;
+  }
+}
