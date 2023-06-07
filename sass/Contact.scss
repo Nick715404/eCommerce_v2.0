@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+.contact {
+  margin-bottom: 185px;
+  &__title {
+    font-weight: 700;
+    font-size: $h2;
+    line-height: 130%;
+    text-align: center;
+    color: $white1;
+    padding-bottom: 18px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: $NormalText;
+    line-height: 180%;
+    color: $white2;
+    text-align: center;
+    max-width: 420px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  &__form {
+    width: 41.1%; /*485*/
+    margin: 0 auto;
+  }
+}
