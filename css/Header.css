@@ -1,13 +1,5 @@
 .header {
   margin-bottom: 135px; }
-  .header__logo {
-    position: relative;
-    background-image: url(../img/svg/logo.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 125px;
-    height: 40px; }
   .header__wrapper {
     display: flex;
     justify-content: space-between;
@@ -39,5 +31,14 @@
   border-radius: 20px; }
 .list__item :hover {
   background-color: #ffffff50; }
+
+.logo {
+  position: relative;
+  background-image: url(../img/svg/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 125px;
+  height: 40px; }
 
 /*# sourceMappingURL=Header.css.map */

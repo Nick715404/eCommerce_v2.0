@@ -1,2 +1,72 @@
 @import './variables.scss';
 
+.creative {
+  color: $white2;
+  margin-bottom: 184px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: $h2;
+    line-height: 130%;
+    color: $white1;
+    padding-bottom: 35px;
+  }
+
+  &__content {
+    width: 45%;
+  }
+
+  &__cards {
+    width: 47%;
+  }
+
+  &__text {
+    max-width: 462px;
+    padding-bottom: 25px;
+  }
+}
+
+.creative-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+
+  &__item {
+    border-radius: 10px;
+    width: fit-content;
+    width: 265px;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+    &:hover {
+      background: #1A1A3D;
+    }
+  }
+
+  &__img {
+    margin-top: 24px;
+    margin-bottom: 31px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: $h3;
+    line-height: 130%;
+    color: $white1;
+    padding-bottom: 20px;
+  }
+
+  &__text {
+    max-width: 253px;
+    padding-bottom: 24px;
+    font-weight: 400;
+    font-size: $SmallText;
+    line-height: 180%;
+  }
+}

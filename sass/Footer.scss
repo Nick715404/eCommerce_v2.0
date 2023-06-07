@@ -1,1 +1,44 @@
 @import './variables.scss';
+
+.footer {
+  margin-bottom: 85px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.social-list {
+  display: flex;
+  gap: 40px;
+
+  &__link {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .4s ease-in-out;
+    &--first:hover {
+      background-color: $accent1;
+    }
+    &--second:hover {
+      background-color: $secondary;
+    }
+    &--third:hover {
+      background-color: $accent1;
+    }
+    &--fourth:hover {
+      background-color: $accent3;
+    }
+  }
+
+  &__link > svg > path {
+    fill: #868695;
+    transition: fill .2s ease-in;
+  }
+
+  &__link:hover > svg > path {
+    fill: $white1;
+  }
+}
