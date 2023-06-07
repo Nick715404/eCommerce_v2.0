@@ -24,12 +24,13 @@
   &__btn--transparent {
     background-color: transparent;
     color: $primary;
-
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $primary;
       color: inherit;
     }
   }
+  
 }
 
 .nav {
@@ -51,7 +52,8 @@
   }
 
   &__item {
-    :hover {
+    :hover,
+    :focus {
       background-color: #ffffff50;
     }
   }
@@ -70,8 +72,8 @@
 }
 
 @media (max-width: 1024px) {
-  .nav,
-  .buttonBox  {
+  .header__nav,
+  .header__buttonBox  {
     display: none;
   }
   .burger {

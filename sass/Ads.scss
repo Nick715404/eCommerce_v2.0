@@ -7,7 +7,7 @@
   &__wrapper {
     position: relative;
     min-height: 760px;
-    background-image: url(../img/ads.png);
+    background-image: url(../img/ads.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -109,5 +109,63 @@
       text-align: center;
       border: none;
     }
+  }
+}
+
+@media (max-width:1309px) {
+  .ads__clients{
+    right: -0px;
+  }
+}
+
+@media (max-width:1166px) {
+  .ads__title{
+    // mix-blend-mode: difference;
+    mix-blend-mode: exclusion;
+  }
+}
+
+@media (max-width:1069px) {
+  .ads__text{
+    mix-blend-mode: difference;
+    color: #ffffff;
+  }
+}
+
+@media (max-width:630px) {
+  .ads__wrapper {
+    background-image: url('');
+  }
+
+  .ads__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ads__title{
+    color: $white1;
+  }
+
+  .ads__text{
+    color: $white2;
+  }
+
+  .ads__title,
+  .ads__text {
+    mix-blend-mode: normal;
+  }
+
+  .ads__clients {
+    position: static;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width:333px) {
+  .ads__clients {
+    text-align: center;
   }
 }

@@ -1,9 +1,11 @@
 .burger {
-  display: none;
-  width: 40px;
-  height: 30px;
   position: relative;
+  z-index: 9999;
+  display: none;
   background-color: transparent;
+  width: 35px;
+  height: 25px;
+  padding: 10px 10px;
   outline: none;
   cursor: pointer;
   transition: all .3s ease-in-out; }
@@ -30,6 +32,14 @@
 .burger-active {
   animation: slideRight .6s; }
 
+.burger-box {
+  background-color: #172656;
+  padding: 15px 15px;
+  border-radius: 14px;
+  overflow: hidden;
+  position: fixed;
+  right: 20px; }
+
 @keyframes slideRight {
   0% {
     transform: translateX(0); }
@@ -55,7 +65,7 @@
   .buttonBox__btn--transparent {
     background-color: transparent;
     color: #FFBE0B; }
-    .buttonBox__btn--transparent:hover {
+    .buttonBox__btn--transparent:hover, .buttonBox__btn--transparent:focus {
       background-color: #FFBE0B;
       color: inherit; }
 
@@ -71,7 +81,8 @@
   padding: 10px 15px;
   transition: background-color .2s ease-in-out;
   border-radius: 20px; }
-.list__item :hover {
+.list__item :hover,
+.list__item :focus {
   background-color: #ffffff50; }
 
 .logo {
@@ -86,8 +97,8 @@
   flex-wrap: wrap; }
 
 @media (max-width: 1024px) {
-  .nav,
-  .buttonBox {
+  .header__nav,
+  .header__buttonBox {
     display: none; }
 
   .burger {

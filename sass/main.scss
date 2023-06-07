@@ -1,4 +1,5 @@
 @import './variables.scss';
+@import './PopUpMenu.scss';
 
 *,
 *::before,
@@ -16,6 +17,11 @@
   line-height: 180%;
   font-size: $NormalText;
   overflow-x: hidden;
+  position: relative;
+}
+
+.body-active {
+  overflow: hidden;
 }
 
 .main {
@@ -40,7 +46,8 @@
   border: 1px solid $primary;
   background-color: $primary;
   transition: all .3s ease-in-out;
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: transparent;
     color: $primary;
   }

@@ -23,7 +23,7 @@
   }
 
   &__cards {
-    width: 47%;
+    width: 48%;
   }
 
   &__text {
@@ -68,5 +68,42 @@
     font-weight: 400;
     font-size: $SmallText;
     line-height: 180%;
+  }
+}
+
+@media (max-width:1209px) {
+  .creative__wrapper {
+    flex-direction: column;
+  }
+
+  .creative__content {
+    text-align: center;
+  }
+
+  .creative__cards {
+    width: 100%;
+  }
+}
+
+@media (max-width:977px) {
+  .creative__content {
+    text-align: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  .creative__text {
+    margin: 0 auto;
+  }
+
+  .creative__cards {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:610px) {
+  .creative__cards {
+    justify-content: center;
   }
 }
