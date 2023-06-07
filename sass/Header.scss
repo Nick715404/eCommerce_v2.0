@@ -1,0 +1,61 @@
+@import '../sass/variables.scss';
+
+.header {
+  margin-bottom: 135px;
+  &__logo {
+    position: relative;
+    background-image: url(../img/svg/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 125px;
+    height: 40px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+  }
+
+  &__buttonBox {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+}
+
+.buttonBox{
+  &__btn--transparent {
+    background-color: transparent;
+    color: $primary;
+    &:hover {
+      background-color: $primary;
+      color: inherit;
+    }
+  }
+}
+
+.nav {
+  max-width: 395px;
+  flex-wrap: wrap;
+  &__list {
+    display: flex;
+    gap: 45px;
+  }
+}
+
+.list {
+  &__link {
+    color: $white1;
+    padding: 10px 15px;
+    transition: background-color .2s ease-in-out;
+    border-radius: 20px;
+  }
+  &__item{
+    :hover {
+      background-color: #ffffff50;
+    }
+  }
+}

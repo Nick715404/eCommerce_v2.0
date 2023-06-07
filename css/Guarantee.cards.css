@@ -1,0 +1,82 @@
+.guarantee-cards {
+  width: 50%;
+  position: relative; }
+  .guarantee-cards__card {
+    position: relative; }
+  .guarantee-cards__card--vertical {
+    position: absolute;
+    right: -200px;
+    top: -60px;
+    min-height: 250px;
+    width: 192px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: -12px 13px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; }
+  .guarantee-cards__card--horizontal {
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -400px;
+    left: -150px;
+    min-height: 126px;
+    width: 440px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding-left: 200px; }
+    .guarantee-cards__card--horizontal::after {
+      content: '';
+      background-image: url(../img/cards/horizontal-card.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      height: 235px;
+      width: 154px;
+      bottom: -5px;
+      left: 20px; }
+    .guarantee-cards__card--horizontal::before {
+      content: '';
+      background-image: url(../img/cards/arrow.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      height: 45px;
+      width: 45px;
+      right: -20px;
+      cursor: pointer; }
+  .guarantee-cards__img {
+    margin-bottom: 10px; }
+  .guarantee-cards__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #0E0E2C; }
+  .guarantee-cards__text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 180%;
+    text-align: center;
+    color: #838394;
+    padding-bottom: 20px; }
+  .guarantee-cards__button {
+    background-color: #3A86FF;
+    border: 1px solid #3A86FF;
+    padding: 7px 30px;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 180%;
+    transition: all .3s ease-in-out; }
+    .guarantee-cards__button:hover {
+      background-color: transparent;
+      color: #0E0E2C; }
+
+/*# sourceMappingURL=Guarantee.cards.css.map */
