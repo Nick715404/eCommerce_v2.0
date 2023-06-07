@@ -48,7 +48,8 @@
   letter-spacing: 0.075em;
   color: #3A86FF;
   padding: 7px 14px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  max-width: 260px; }
 
 section {
   background: transparent; }

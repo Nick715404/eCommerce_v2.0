@@ -31,7 +31,9 @@
   display: flex;
   justify-content: space-between;
   color: #FFFFFF;
-  max-width: 489px; }
+  max-width: 489px;
+  flex-wrap: wrap;
+  gap: 20px; }
   .guarantee-list__span {
     margin-left: 45px;
     position: relative;

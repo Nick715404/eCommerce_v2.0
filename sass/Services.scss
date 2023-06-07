@@ -30,6 +30,9 @@
 
 .values {
   display: flex;
+  max-width: 591px;
+  flex-wrap: wrap;
+  gap: 20px;
 
   &__item--first {
     border-right: 1px solid #626276;
@@ -46,7 +49,8 @@
     font-size: 38px;
     line-height: 130%;
     margin-bottom: 13px;
-    max-width: 213px;
+    max-width: 214px;
+    word-wrap: break-word;
 
     &--yellow {
       color: $primary;

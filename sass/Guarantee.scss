@@ -53,6 +53,8 @@
   justify-content: space-between;
   color: $white1;
   max-width: 489px;
+  flex-wrap: wrap;
+  gap: 20px;
   &__span {
     margin-left: 45px;
     position: relative;

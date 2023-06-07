@@ -59,6 +59,8 @@
 
 .client-list {
   display: flex;
+  max-width: 230px;
+  flex-wrap: wrap;
 
   &__item {
     width: 54px;

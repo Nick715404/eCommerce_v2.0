@@ -9,6 +9,8 @@
     text-align: center;
     color: $white1;
     padding-bottom: 18px;
+    max-width: 440px;
+    margin: 0 auto;
   }
 
   &__text {
@@ -25,5 +27,6 @@
   &__form {
     width: 41.1%; /*485*/
     margin: 0 auto;
+    margin-bottom: 20px;
   }
 }

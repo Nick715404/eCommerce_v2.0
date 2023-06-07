@@ -18,6 +18,8 @@
 }
 
 .buttonBox {
+  max-width: 281px;
+  flex-wrap: wrap;
   &__btn--transparent {
     background-color: transparent;
     color: $primary;
@@ -30,12 +32,12 @@
 }
 
 .nav {
-  max-width: 395px;
-  flex-wrap: wrap;
+  max-width: 408px;
 
   &__list {
     display: flex;
-    gap: 45px;
+    flex-wrap: wrap;
+    gap: 16px;
   }
 }
 
@@ -62,4 +64,10 @@
   background-size: contain;
   width: 125px;
   height: 40px;
+  max-width: 126px;
+  flex-wrap: wrap;
+}
+
+.burger {
+  
 }

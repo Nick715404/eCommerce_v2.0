@@ -10,19 +10,22 @@
     align-items: center;
     gap: 28px; }
 
-.buttonBox__btn--transparent {
-  background-color: transparent;
-  color: #FFBE0B; }
-  .buttonBox__btn--transparent:hover {
-    background-color: #FFBE0B;
-    color: inherit; }
+.buttonBox {
+  max-width: 281px;
+  flex-wrap: wrap; }
+  .buttonBox__btn--transparent {
+    background-color: transparent;
+    color: #FFBE0B; }
+    .buttonBox__btn--transparent:hover {
+      background-color: #FFBE0B;
+      color: inherit; }
 
 .nav {
-  max-width: 395px;
-  flex-wrap: wrap; }
+  max-width: 408px; }
   .nav__list {
     display: flex;
-    gap: 45px; }
+    flex-wrap: wrap;
+    gap: 16px; }
 
 .list__link {
   color: #FFFFFF;
@@ -39,6 +42,8 @@
   background-position: center;
   background-size: contain;
   width: 125px;
-  height: 40px; }
+  height: 40px;
+  max-width: 126px;
+  flex-wrap: wrap; }
 
 /*# sourceMappingURL=Header.css.map */

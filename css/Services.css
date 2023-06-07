@@ -20,7 +20,10 @@
     padding-bottom: 70px; }
 
 .values {
-  display: flex; }
+  display: flex;
+  max-width: 591px;
+  flex-wrap: wrap;
+  gap: 20px; }
   .values__item--first {
     border-right: 1px solid #626276;
     padding-right: 48px; }
@@ -32,7 +35,8 @@
     font-size: 38px;
     line-height: 130%;
     margin-bottom: 13px;
-    max-width: 213px; }
+    max-width: 214px;
+    word-wrap: break-word; }
     .values__span--yellow {
       color: #FFBE0B; }
     .values__span--orange {
