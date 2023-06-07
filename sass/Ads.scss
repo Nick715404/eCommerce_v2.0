@@ -1,0 +1,111 @@
+@import './variables.scss';
+
+.ads {
+  color: $white2;
+  margin-bottom: 172px;
+
+  &__wrapper {
+    position: relative;
+    min-height: 760px;
+    background-image: url(../img/ads.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__content {
+    max-width: 538px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: $h2;
+    line-height: 130%;
+    color: $white1;
+    padding-bottom: 34px;
+  }
+
+  &__text {
+    max-width: 462px;
+    font-weight: 400;
+    font-size: $NormalText;
+    line-height: 180%;
+  }
+}
+
+.clients {
+  position: absolute;
+  right: -60px;
+  bottom: -60px;
+  max-width: 290px;
+  background-color: $white1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 40px 22px 36px;
+  border-radius: 10px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    padding-bottom: 20px;
+  }
+}
+
+.client-list {
+  display: flex;
+
+  &__item {
+    width: 54px;
+    height: 54px;
+    border: 4px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -15px;
+
+    &--jhon {
+      background-image: url(../img/clients/jhon.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    &--yan {
+      background-image: url(../img/clients/yan.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    &--july {
+      background-image: url(../img/clients/julia.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    &--nadia {
+      background-image: url(../img/clients/nadia.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    &--other {
+      background-color: $accent2;
+      color: $white1;
+      font-weight: 400;
+      font-size: $h3;
+      line-height: 130%;
+      text-align: center;
+      border: none;
+    }
+  }
+}
