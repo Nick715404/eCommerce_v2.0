@@ -1,10 +1,7 @@
-@import './variables.scss';
-
 .ads {
-  color: $white2;
-  margin-bottom: 172px;
-
-  &__wrapper {
+  color: #868695;
+  margin-bottom: 172px; }
+  .ads__wrapper {
     position: relative;
     min-height: 760px;
     background-image: url(../img/ads.webp);
@@ -13,56 +10,44 @@
     background-position: right;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-  }
-
-  &__content {
-    max-width: 538px;
-  }
-
-  &__title {
+    justify-content: center; }
+  .ads__content {
+    max-width: 538px; }
+  .ads__title {
     font-weight: 700;
-    font-size: $h2;
+    font-size: 48px;
     line-height: 130%;
-    color: $white1;
-    padding-bottom: 34px;
-  }
-
-  &__text {
+    color: #FFFFFF;
+    padding-bottom: 34px; }
+  .ads__text {
     max-width: 462px;
     font-weight: 400;
-    font-size: $NormalText;
-    line-height: 180%;
-  }
-}
+    font-size: 16px;
+    line-height: 180%; }
 
 .clients {
   position: absolute;
   right: -60px;
   bottom: -60px;
   max-width: 290px;
-  background-color: $white1;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 22px 40px 22px 36px;
-  border-radius: 10px;
-
-  &__title {
+  border-radius: 10px; }
+  .clients__title {
     font-weight: 600;
     font-size: 24px;
     line-height: 130%;
     color: #000000;
-    padding-bottom: 20px;
-  }
-}
+    padding-bottom: 20px; }
 
 .client-list {
   display: flex;
   max-width: 230px;
-  flex-wrap: wrap;
-
-  &__item {
+  flex-wrap: wrap; }
+  .client-list__item {
     width: 54px;
     height: 54px;
     border: 4px solid white;
@@ -70,102 +55,72 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: -15px;
-
-    &--jhon {
+    margin-right: -15px; }
+    .client-list__item--jhon {
       background-image: url(../img/clients/jhon.svg);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;
-    }
-
-    &--yan {
+      background-size: contain; }
+    .client-list__item--yan {
       background-image: url(../img/clients/yan.svg);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;
-    }
-
-    &--july {
+      background-size: contain; }
+    .client-list__item--july {
       background-image: url(../img/clients/julia.svg);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;
-    }
-
-    &--nadia {
+      background-size: contain; }
+    .client-list__item--nadia {
       background-image: url(../img/clients/nadia.svg);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;
-    }
-
-    &--other {
-      background-color: $accent2;
-      color: $white1;
+      background-size: contain; }
+    .client-list__item--other {
+      background-color: #aa3600;
+      color: #FFFFFF;
       font-weight: 400;
-      font-size: $h3;
+      font-size: 20px;
       line-height: 130%;
       text-align: center;
-      border: none;
-    }
-  }
-}
+      border: none; }
 
-@media (max-width:1309px) {
-  .ads__clients{
-    right: -0px;
-  }
-}
-
-@media (max-width:1166px) {
-  .ads__title{
-    // mix-blend-mode: difference;
-    mix-blend-mode: exclusion;
-  }
-}
-
-@media (max-width:1069px) {
-  .ads__text{
+@media (max-width: 1309px) {
+  .ads__clients {
+    right: -0px; } }
+@media (max-width: 1166px) {
+  .ads__title {
+    mix-blend-mode: exclusion; } }
+@media (max-width: 1069px) {
+  .ads__text {
     mix-blend-mode: difference;
-    color: #ffffff;
-  }
-}
-
-@media (max-width:630px) {
+    color: #ffffff; } }
+@media (max-width: 630px) {
   .ads__wrapper {
-    background-image: url('');
-  }
+    background-image: url(""); }
 
   .ads__content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-  }
+    text-align: center; }
 
-  .ads__title{
-    color: $white1;
-  }
+  .ads__title {
+    color: #FFFFFF; }
 
-  .ads__text{
-    color: $white2;
-  }
+  .ads__text {
+    color: #868695; }
 
   .ads__title,
   .ads__text {
-    mix-blend-mode: normal;
-  }
+    mix-blend-mode: normal; }
 
   .ads__clients {
     position: static;
     margin: 0 auto;
-    margin-top: 50px;
-  }
-}
-
-@media (max-width:333px) {
+    margin-top: 50px; } }
+@media (max-width: 333px) {
   .ads__clients {
-    text-align: center;
-  }
-}
+    text-align: center; } }
+
+/*# sourceMappingURL=Ads.css.map */

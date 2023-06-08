@@ -1,0 +1,27 @@
+.contact {
+  margin-bottom: 185px; }
+  .contact__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 18px;
+    max-width: 440px;
+    margin: 0 auto; }
+  .contact__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #868695;
+    text-align: center;
+    max-width: 420px;
+    margin: 0 auto;
+    padding-bottom: 50px; }
+  .contact__form {
+    width: 41.1%;
+    /*485*/
+    margin: 0 auto;
+    margin-bottom: 20px; }
+
+/*# sourceMappingURL=Contact.css.map */

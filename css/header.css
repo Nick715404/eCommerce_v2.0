@@ -1,0 +1,111 @@
+.burger {
+  position: relative;
+  z-index: 9999;
+  display: none;
+  background-color: transparent;
+  width: 35px;
+  height: 25px;
+  padding: 10px 10px;
+  outline: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out; }
+  .burger:hover, .burger:focus {
+    transform: scale(1.1); }
+  .burger__lines {
+    position: absolute;
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0; }
+    .burger__lines:nth-child(1) {
+      top: 0;
+      animation-delay: .5s; }
+    .burger__lines:nth-child(2) {
+      top: 50%;
+      animation-delay: .3s; }
+    .burger__lines:nth-child(3) {
+      top: 100%;
+      animation-delay: .1s; }
+
+.burger-active {
+  animation: slideRight .6s; }
+
+.burger-box {
+  background-color: #172656;
+  padding: 15px 15px;
+  border-radius: 14px;
+  overflow: hidden;
+  position: fixed;
+  right: 20px;
+  display: none; }
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(0); }
+  50% {
+    transform: translateX(80px); }
+  100% {
+    transform: translateX(0); } }
+.header {
+  margin-bottom: 135px; }
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px; }
+  .header__buttonBox {
+    display: flex;
+    align-items: center;
+    gap: 28px; }
+
+.buttonBox {
+  max-width: 281px;
+  flex-wrap: wrap; }
+  .buttonBox__btn--transparent {
+    background-color: transparent;
+    color: #FFBE0B; }
+    .buttonBox__btn--transparent:hover, .buttonBox__btn--transparent:focus {
+      background-color: #FFBE0B;
+      color: inherit; }
+
+.nav {
+  max-width: 408px; }
+  .nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; }
+
+.list__link {
+  color: #FFFFFF;
+  padding: 10px 15px;
+  transition: background-color .2s ease-in-out;
+  border-radius: 20px; }
+.list__item :hover,
+.list__item :focus {
+  background-color: #ffffff50; }
+
+.logo {
+  position: relative;
+  background-image: url(../img/svg/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 125px;
+  height: 40px;
+  max-width: 126px;
+  flex-wrap: wrap; }
+
+@media (max-width: 1024px) {
+  .header__nav,
+  .header__buttonBox {
+    display: none; }
+
+  .burger {
+    display: block; }
+
+  .burger-box {
+    display: block; } }
+
+/*# sourceMappingURL=Header.css.map */

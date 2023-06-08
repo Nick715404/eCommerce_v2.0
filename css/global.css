@@ -1,13 +1,13 @@
 @import './normalise.css';
 @import './main.css';
-@import './Header.css';
-@import './Guarantee.css';
-@import './Guarantee.cards.css';
-@import './Services.css';
-@import './Creative.css';
-@import './Ads.css';
-@import './Contact.css';
-@import './Footer.css';
+@import './header.css';
+@import './guarantee.css';
+@import './guarantee.cards.css';
+@import './services.css';
+@import './creative.css';
+@import './ads.css';
+@import './contact.css';
+@import './footer.css';
 
 @font-face {
   font-family: 'Montserat';
