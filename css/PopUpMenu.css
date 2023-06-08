@@ -60,7 +60,7 @@
 .popup-menu--active {
   transform: translateY(0%); }
 
-.close-btn {
+.close-button {
   position: absolute;
   top: 20px;
   right: 20px;

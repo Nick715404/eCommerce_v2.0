@@ -71,20 +71,20 @@
     font-size: 18px;
     line-height: 180%;
     text-align: center;
-    color: #0E0E2C;
+    color: #000000;
   }
 
   &__text {
     font-weight: 400;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 180%;
     text-align: center;
-    color: #838394;
+    color: #2e2e35;
     padding-bottom: 20px;
   }
 
   &__button {
-    background-color: $secondary;
+    background-color: #2757A4;
     border: 1px solid $secondary;
     padding: 7px 30px;
     border-radius: 5px;

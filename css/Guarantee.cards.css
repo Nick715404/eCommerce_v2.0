@@ -57,16 +57,16 @@
     font-size: 18px;
     line-height: 180%;
     text-align: center;
-    color: #0E0E2C; }
+    color: #000000; }
   .guarantee-cards__text {
     font-weight: 400;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 180%;
     text-align: center;
-    color: #838394;
+    color: #2e2e35;
     padding-bottom: 20px; }
   .guarantee-cards__button {
-    background-color: #3A86FF;
+    background-color: #2757A4;
     border: 1px solid #3A86FF;
     padding: 7px 30px;
     border-radius: 5px;

@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Это краткое описание всего">
   <title>Shopify</title>
-  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/global.css" preload>
   <script src="./js/main.js" defer></script>
 </head>
 
 <body class="body">
-  
+
   <div class="page">
 
     <header class="header">
@@ -42,7 +43,7 @@
             <button class="buttonBox__btn button">Try Free</button>
           </div>
           <div class="burger-box">
-            <button class="header__burger burger">
+            <button class="header__burger burger" aria-label="Burger Button">
               <span class="burger__lines"></span>
               <span class="burger__lines"></span>
               <span class="burger__lines"></span>
@@ -64,8 +65,7 @@
               <p class="guarantee__text">More than 90,000+ companies trust our business. Get help from a dedicated
                 shopify developer today.</p>
               <form class="form guarantee__form">
-                <img class="form__img" src="./img/icons/Email.svg" alt="Иконка электронной почты">
-                <label for="mail"></label>
+                <label for="mail"><img class="form__img" src="./img/icons/Email.svg" alt="Иконка электронной почты"></label> <!-- ФИКСАНУТЬ! -->
                 <input id="mail" class="form__input" type="email" required placeholder="Your email address">
                 <button class="button form__button" type="submit">Sign up</button>
               </form>
@@ -82,7 +82,7 @@
             <div class="guarantee__cards guarantee-cards">
               <div class="guarantee-cards__card guarantee-cards__card--vertical">
                 <img class="guarantee-cards__img" src="./img/cards/vertical-card.svg" alt="">
-                <h3 class="guarantee-cards__title">Make Progress</h3>
+                <h2 class="guarantee-cards__title">Make Progress</h2>
                 <p class="guarantee-cards__text">with opening plans</p>
                 <button class="guarantee-cards__button">Buy Plan</button>
               </div>
@@ -182,7 +182,8 @@
             <h2 class="contact__title">Contact with us.</h2>
             <p class="contact__text">More than 50,000+ companies trusted our business</p>
             <form class="form contact__form">
-              <input class="form__input" type="email" required placeholder="Your email address">
+              <label for="mail1">.</label>
+              <input id="mail1" class="form__input" type="email" required placeholder="Your email address">
               <button class="button form__button" type="submit">Sign up</button>
             </form>
             <button class="footer__adaptive-btn button">To Form</button>
@@ -325,7 +326,7 @@
         <button class="buttonBox__btn button buttonBox__btn--transparent">Sign in</button>
         <button class="buttonBox__btn button">Try Free</button>
       </div>
-      <button class="close-btn"></button>
+      <button class="close-button" aria-label="Slose Button"></button>
     </div>
   </div>
 </body>

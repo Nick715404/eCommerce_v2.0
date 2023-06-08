@@ -1,7 +1,7 @@
 const button = document.querySelector(".burger");
 const lines = document.querySelectorAll('.burger__lines');
 const burger = document.querySelector('.burger');
-const burgerClose = document.querySelector('.close-btn');
+const burgerClose = document.querySelector('.close-button');
 const menu = document.querySelector('.popup-menu');
 const body = document.querySelector('.body');
 

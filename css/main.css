@@ -60,7 +60,7 @@
 .popup-menu--active {
   transform: translateY(0%); }
 
-.close-btn {
+.close-button {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -150,7 +150,7 @@
   line-height: 180%;
   text-align: center;
   letter-spacing: 0.075em;
-  color: #3A86FF;
+  color: #65a0ff;
   padding: 7px 14px;
   margin-bottom: 10px;
   max-width: 260px; }
