@@ -61,7 +61,9 @@
       padding-left: 0px; } }
 @media (max-width: 1024px) {
   .services {
-    background-image: url(""); }
+    background-image: url("");
+    min-height: 420px;
+    margin: 0; }
     .services__wrapper {
       justify-content: center;
       width: auto;

@@ -73,10 +73,11 @@
 @media (max-width: 1024px) {
   .guarantee {
     background-image: url("");
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 20px; }
     .guarantee__wrapper {
       display: flex;
-      min-height: 835px;
+      min-height: 635px;
       align-items: center;
       justify-content: center; }
     .guarantee__content {

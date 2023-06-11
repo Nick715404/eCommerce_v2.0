@@ -95,6 +95,9 @@
   .ads__text {
     mix-blend-mode: difference;
     color: #ffffff; } }
+@media (max-width: 1024px) {
+  .ads {
+    margin-bottom: 50px; } }
 @media (max-width: 630px) {
   .ads__wrapper {
     background-image: url(""); }

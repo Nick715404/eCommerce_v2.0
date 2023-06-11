@@ -93,6 +93,8 @@
 @media (max-width:1024px) {
   .services {
     background-image: url('');
+    min-height: 420px;
+    margin: 0;
 
     &__wrapper {
       justify-content:center;

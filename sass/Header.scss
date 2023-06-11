@@ -69,9 +69,6 @@
   height: 40px;
   max-width: 126px;
   flex-wrap: wrap;
-  &:focus {
-    
-  }
 }
 
 @media (max-width: 1024px) {
@@ -84,5 +81,8 @@
   }
   .burger-box {
     display: block;
+  }
+  .header {
+    margin-bottom: 60px;
   }
 }

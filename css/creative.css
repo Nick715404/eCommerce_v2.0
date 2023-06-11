@@ -57,6 +57,9 @@
 
   .creative__cards {
     width: 100%; } }
+@media (max-width: 1024px) {
+  .creative {
+    margin-bottom: 50px; } }
 @media (max-width: 977px) {
   .creative__content {
     text-align: center;

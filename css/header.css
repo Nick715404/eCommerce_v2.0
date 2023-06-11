@@ -106,6 +106,9 @@
     display: block; }
 
   .burger-box {
-    display: block; } }
+    display: block; }
+
+  .header {
+    margin-bottom: 60px; } }
 
 /*# sourceMappingURL=Header.css.map */
