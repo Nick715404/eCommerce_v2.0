@@ -45,6 +45,8 @@
 }
 
 .burger-box {
+  position: relative;
+  z-index: 9999;
   background-color: $secondary-op;
   padding: 15px 15px ;
   border-radius: 14px;
