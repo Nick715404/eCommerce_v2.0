@@ -57,6 +57,7 @@
   width: 83%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 32px; }
   .form__input {
     width: 60%;
