@@ -1,6 +1,6 @@
 .burger {
   position: relative;
-  z-index: 9999;
+  z-index: 99;
   display: none;
   background-color: transparent;
   width: 35px;
@@ -34,7 +34,7 @@
 
 .burger-box {
   position: relative;
-  z-index: 9999;
+  z-index: 99;
   background-color: #172656;
   padding: 15px 15px;
   border-radius: 14px;
